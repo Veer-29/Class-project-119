@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    background-color:pink;
+    color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Twinkle Star', cursive;
+    font-weight: bolder;
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: jokerman;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 30px grey;}
+    to{box-shadow: 1px 1px 30px white;}
+}
+
+canvas{
+    border: 5px solid yellow;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
